@@ -1,0 +1,8 @@
+XlsxWriter
+numpy                   
+opencv-contrib-python   
+opencv-python          
+openpyxl               
+pandas                
+pillow
+secure-smtplib
