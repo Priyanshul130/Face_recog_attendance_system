@@ -7,8 +7,11 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 VIDEO_CODEC = cv2.VideoWriter_fourcc(*'XVID')
+
+
 VIDEO_FPS = 60
 VIDEO_SIZE = (640, 480)
+
 
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FPS, VIDEO_FPS)
@@ -20,6 +23,9 @@ out = cv2.VideoWriter("output_video_file\_video.avi", VIDEO_CODEC, VIDEO_FPS, (w
 
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 font = cv2.FONT_HERSHEY_SIMPLEX
+
+
+
 
 if not cap.isOpened():
     print("Unable to read camera feed")
