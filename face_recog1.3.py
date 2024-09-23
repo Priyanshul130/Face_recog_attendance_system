@@ -9,6 +9,8 @@ from email.mime.multipart import MIMEMultipart
 VIDEO_CODEC = cv2.VideoWriter_fourcc(*'XVID')
 
 
+
+
 VIDEO_FPS = 60
 VIDEO_SIZE = (640, 480)
 
