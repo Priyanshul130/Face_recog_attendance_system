@@ -57,7 +57,7 @@ detected_faces = set()
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 465
 SMTP_USERNAME = 'piyanshul1307@gmail.com'
-SMTP_PASSWORD = 'voqjeuzdbrrcjbjs'
+SMTP_PASSWORD = '<PASSWORDS>'
 
 def send_email(to_email, subject, body):
     from_email = SMTP_USERNAME
